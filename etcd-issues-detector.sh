@@ -161,11 +161,11 @@ main() {
     fi
 
 # Verify jq is installed
-jq_check
+    jq_check
 
-local errors=false
-local stats=false
-local search_etcd_cmd=""
+    local errors=false
+    local stats=false
+    local search_etcd_cmd=""
 
   # Parse command line arguments
     while [[ "$#" -gt 0 ]]; do
